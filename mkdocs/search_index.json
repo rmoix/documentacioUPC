@@ -2,13 +2,23 @@
     "docs": [
         {
             "location": "/",
-            "text": "Documentaci\u00f3 UPC\n\n\nOpcions escollides:\n\n\n Llenguatge de marcat: \nGit-flavoured Markdown\n\n\n Eina de construcci\u00f3 de documentaci\u00f3: \nMkdocs\n\n* Plataforma on hostatjar la documentaci\u00f3: \nGitHub pages\n\n\nMkdocs\n\n\nMkdocs \u00e9s un generador de p\u00e0gines est\u00e0tiques a partir de fitxers markdown (*.md). El seu funicionament \u00e9s mol senzill i est\u00e0 pensat per a generar documentaci\u00f3 atractiva de manera molt \u00e0gil.\n\n\nInstal\u00b7laci\u00f3\n\n\nConfiguraci\u00f3\n\n\n\u00das\n\n\nCrear projecte:\n\n\nmkdocs new my-project\n\n\ncd my-project\n\n\nEditar les p\u00e0gines\n\n\ngedit index.md\n\n\nVista pr\u00e8via\n \n\n\nmkdocs serve\n\nMkdocs disposa d'un mini servidor web integrat. El lloc web s'actualitza autom\u00e0ticament si es fa qualsevol canvi.\n\n\nFonts d'informaci\u00f3\n\n\nDocumentation Guide - Write The Docs\n\n\nFor half documentation visit \nmkdocs.org\n.\n\n\nCommands\n\n\n\n\nmkdocs new [dir-name]\n - Create a new project.\n\n\nmkdocs serve\n - Start the live-reloading docs server.\n\n\nmkdocs build\n - Build the documentation site.\n\n\nmkdocs help\n - Print this help message.\n\n\n\n\nProject layout\n\n\nmkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.",
+            "text": "Documentaci\u00f3 UPC\n\n\n\n\nNota\n\n\nAix\u00f2 \u00e9s una prova\n\n\n\n\n\n\n\n\n\n\nColumna 1\n\n\nColumna 2\n\n\n\n\n\n\n\n\n\n\nContingut\n\n\nMastering\n\n\n\n\n\n\n\n\nOpcions escollidess:\n\n\n Llenguatge de marcat: \nGit-flavoured Markdown\n\n\n Eina de construcci\u00f3 de documentaci\u00f3: \nMkdocs\n\n* Plataforma on hostatjar la documentaci\u00f3: \nGitHub pages\n\n\nGitHub\n\n\nCrear un nou repositori a GitHub anomenat \ndocumentacioUPC\n\n\nCrear clau SSH\n\n\nCal crear una parella de claus p\u00fablica i privada i afegir la clau p\u00fablica al nou respositori creat al GitHub.\n\n\nssh-keygen -t rsa -b 4096 -C \"elteu@correu.com\"\ncat ~/.ssh/id_rsa.pub\n//copiar la sortida al portapapeles\n\n\n\n\nMkdocs\n\n\nMkdocs \u00e9s un generador de p\u00e0gines est\u00e0tiques a partir de fitxers markdown (*.md). El seu funicionament \u00e9s mol senzill i est\u00e0 pensat per a generar documentaci\u00f3 atractiva de manera molt \u00e0gil.\n\n\nInstal\u00b7laci\u00f3\n\n\nConfiguraci\u00f3\n\n\n\u00das\n\n\nCrear projecte:\n\n\nmkdocs new my-project\n\n\ncd my-project\n\n\nEditar les p\u00e0gines\n\n\ngedit index.md\n\n\nVista pr\u00e8via\n \n\n\nmkdocs serve\n\nMkdocs disposa d'un mini servidor web integrat. El lloc web s'actualitza autom\u00e0ticament si es fa qualsevol canvi.\n\n\nFonts d'informaci\u00f3\n\n\nDocumentation Guide - Write The Docs\n\n\nFor half documentation visit \nmkdocs.org\n.\n\n\nCommands\n\n\n\n\nmkdocs new [dir-name]\n - Create a new project.\n\n\nmkdocs serve\n - Start the live-reloading docs server.\n\n\nmkdocs build\n - Build the documentation site.\n\n\nmkdocs help\n - Print this help message.\n\n\n\n\nProject layout\n\n\nmkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.",
             "title": "Inici"
         },
         {
             "location": "/#documentacio-upc",
-            "text": "Opcions escollides:   Llenguatge de marcat:  Git-flavoured Markdown   Eina de construcci\u00f3 de documentaci\u00f3:  Mkdocs \n* Plataforma on hostatjar la documentaci\u00f3:  GitHub pages",
+            "text": "Nota  Aix\u00f2 \u00e9s una prova      Columna 1  Columna 2      Contingut  Mastering     Opcions escollidess:   Llenguatge de marcat:  Git-flavoured Markdown   Eina de construcci\u00f3 de documentaci\u00f3:  Mkdocs \n* Plataforma on hostatjar la documentaci\u00f3:  GitHub pages",
             "title": "Documentaci\u00f3 UPC"
+        },
+        {
+            "location": "/#github",
+            "text": "Crear un nou repositori a GitHub anomenat  documentacioUPC",
+            "title": "GitHub"
+        },
+        {
+            "location": "/#crear-clau-ssh",
+            "text": "Cal crear una parella de claus p\u00fablica i privada i afegir la clau p\u00fablica al nou respositori creat al GitHub.  ssh-keygen -t rsa -b 4096 -C \"elteu@correu.com\"\ncat ~/.ssh/id_rsa.pub\n//copiar la sortida al portapapeles",
+            "title": "Crear clau SSH"
         },
         {
             "location": "/#mkdocs",

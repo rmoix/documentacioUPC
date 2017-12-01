@@ -62,6 +62,8 @@
             
                 <li class="toctree-l3"><a href="#documentacio-upc">Documentació UPC</a></li>
                 
+                    <li><a class="toctree-l4" href="#github">GitHub</a></li>
+                
                     <li><a class="toctree-l4" href="#mkdocs">Mkdocs</a></li>
                 
             
@@ -121,10 +123,37 @@
             <div class="section">
               
                 <h1 id="documentacio-upc">Documentació UPC</h1>
-<p><strong>Opcions escollides:</strong>
+<div class="admonition nota">
+<p class="admonition-title">Nota</p>
+<p>Això és una prova</p>
+</div>
+<table>
+<thead>
+<tr>
+<th>Columna 1</th>
+<th>Columna 2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Contingut</td>
+<td>Mastering</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Opcions escollidess:</strong>
 <em> Llenguatge de marcat: <strong>Git-flavoured Markdown</strong>
 </em> Eina de construcció de documentació: <strong>Mkdocs</strong>
 * Plataforma on hostatjar la documentació: <strong>GitHub pages</strong></p>
+<h2 id="github">GitHub</h2>
+<p>Crear un nou repositori a GitHub anomenat <em>documentacioUPC</em></p>
+<h3 id="crear-clau-ssh">Crear clau SSH</h3>
+<p>Cal crear una parella de claus pública i privada i afegir la clau pública al nou respositori creat al GitHub.</p>
+<pre><code>ssh-keygen -t rsa -b 4096 -C &quot;elteu@correu.com&quot;
+cat ~/.ssh/id_rsa.pub
+//copiar la sortida al portapapeles
+</code></pre>
+
 <h2 id="mkdocs">Mkdocs</h2>
 <p>Mkdocs és un generador de pàgines estàtiques a partir de fitxers markdown (*.md). El seu funicionament és mol senzill i està pensat per a generar documentació atractiva de manera molt àgil.</p>
 <h3 id="installacio">Instal·lació</h3>
@@ -201,5 +230,5 @@ docs/
 
 <!--
 MkDocs version : 0.15.3
-Build Date UTC : 2017-12-01 11:35:05
+Build Date UTC : 2017-12-01 12:29:19
 -->
