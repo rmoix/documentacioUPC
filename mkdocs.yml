@@ -1,0 +1,10 @@
+site_name: Documentació UPC
+pages:
+- Inici: 'index.md'
+- Contacte: 'about.md'
+theme: readthedocs
+
+site_description: Pàgina web demo documentació metodologies
+site_url: https://rmoix.github.io/documentacioUPC
+repo_url: https://github.com/rmoix/documentacioUPC
+
